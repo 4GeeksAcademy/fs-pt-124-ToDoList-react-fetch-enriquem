@@ -9,3 +9,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.trashCan {
+    opacity: 0;
+    color: red;
+}
+
+.liOfCard:hover .trashCan {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.glass {
+    background: rgba(43, 164, 138, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 2px solid rgba(43, 164, 138, 0.53);
+}
+
+body{
+    background-image: url("https://www.shutterstock.com/image-vector/do-your-homework-yellow-stick-600nw-284436308.jpg");
+}
